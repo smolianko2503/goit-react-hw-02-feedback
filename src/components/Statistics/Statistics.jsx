@@ -1,7 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import { Stat } from './Statistics.styled';
-import { Notification } from './Notification/Notification';
+import { Notification } from '../Notification/Notification';
 
 export const Statistics = ({ good, neutral, bad, total, positiveFeedback }) =>
   total === 0 ? (
